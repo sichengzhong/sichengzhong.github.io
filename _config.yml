@@ -1,0 +1,11 @@
+lsi: false
+safe: true
+source: https://github.com/sichengzhong/sichengzhong.github.io
+incremental: false
+highlighter: rouge
+disable_disk_cache: true
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge

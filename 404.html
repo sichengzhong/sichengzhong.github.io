@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        main div::before{
+            content: "";
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background-image: url("resources/ferris-flat-gesture.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>404 Not Found</h1>
+        
+        <div>nginx/250.0.0</div>
+    </main>
+</body>
+</html>
